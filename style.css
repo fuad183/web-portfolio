@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Oswald', sans-serif;
 }
 h1{
@@ -6,6 +7,9 @@ h1{
 }
 .name-light{
     color: orange;
+}
+h2{
+    font-size: 40px;
 }
 h3{
     font-size: 30px;
@@ -21,4 +25,55 @@ p{
 }
 .half-profile img{
     width: 100%;
+}
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+.link-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: rgb(221, 235, 240);
+    background-image: linear-gradient(50deg, rgb(231, 189, 75), tomato);
+    
+}
+.mid-part{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experiences{
+    box-shadow: 10px 10px 40px rgb(80, 63, 63);
+    border-radius: 8px;
+    height: 100%;
+    padding-right: 30px;
+    background-color: rgb(219, 217, 217);
+}
+.last-part{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(248, 84, 62), rgb(246, 149, 38));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(0, 60, 255), rgb(126, 7, 223));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
